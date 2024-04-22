@@ -1,7 +1,7 @@
 import '@/app/paper/paper.css'
 
 export default function Page() {
-    return (
+    return (<body>
         <div className={'bg-paper-background w-screen min-h-screen text-center'}>
             <header className={'absolute w-screen px-12 py-6 flex gap-8 justify-end'}>
                 <a>About</a>
@@ -21,6 +21,6 @@ export default function Page() {
             <footer className={'py-8'}>
                 anya © {new Date().getFullYear()}
             </footer>
-        </div>
+        </div></body>
     )
 }
