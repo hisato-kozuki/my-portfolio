@@ -1,6 +1,6 @@
 .paper {
     @apply bg-paper-surface px-12 py-16 min-h-screen;
-    box-shadow: 0 4px 16px 0 rgba(112, 112, 112, 1);
+    box-shadow: 0 4px 16px 0 rgba(112, 112, 112, 0.25);
     counter-reset: h3;
 }
 
