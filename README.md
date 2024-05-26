@@ -2,7 +2,6 @@
 ポートフォリオサイトのテンプレ集です.  
 
 ## GitHub Pages
-GitHub Pagesのリンクは `https://<github-id>.github.io/<repository-name>` です.
-(例: https://gdsc-osaka.github.io/portfolio)
+GitHub Pagesのリンクは `https://hisato-kozuki.github.io/my-portfolio` です.
 
 ## Getting Started
