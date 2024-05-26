@@ -1,3 +1,4 @@
+import Link from "next/link";
 import '@/app/paper/paper.css'
 
 export default function Page() {
