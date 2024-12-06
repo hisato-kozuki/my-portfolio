@@ -11,7 +11,7 @@ export default function Page() {
             <main className={'inline-block mx-auto'}>
                 <div className={'paper'}>
                     <h1>Ar</h1>
-                    <h2>村部遥紀</h2><div className={'lime'} onclick="function1()">
+                    <h2>村部遥紀</h2><div id="a" className={'lime'} onclick="function1()">
                     <h3>About</h3>
                     <p>大阪大学工学部電子情報工学科３年生．好きなものは○○，嫌いなものは○○．</p>
                     <h3>History</h3></div>
@@ -47,4 +47,7 @@ function function1(){
 .then(response => response.text())
 .then(data => console.log(data))
 .catch(error => console.error("Error:", error));
+}
+function changecolor(){
+    document.getElementById('a').style.backgroundColor = "red";
 }
