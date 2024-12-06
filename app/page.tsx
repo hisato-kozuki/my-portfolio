@@ -1,3 +1,4 @@
+import Link from "next/link";
 import '@/app/paper/paper.css'
 
 export default function Page() {
@@ -12,10 +13,13 @@ export default function Page() {
                     <h1>Ar</h1>
                     <h2>村部遥紀</h2><div className={'lime'} onclick="function1()">
                     <h3>About</h3>
-                    <p>○○大学○○学部○○学科の大学○年生．好きなものは○○，嫌いなものは○○．</p>
+                    <p>大阪大学工学部電子情報工学科３年生．好きなものは○○，嫌いなものは○○．</p>
                     <h3>History</h3></div>
                     <h3>Contact</h3>
                     <h3>Works</h3>
+                    <Link href={'/orange'}>Orange</Link>
+                    <Link href={'/paper'}>Paper</Link>
+                    <Link href={'/photographic'}>Photographic</Link>
                 </div>
             </main>
             <footer className={'py-8'}>
